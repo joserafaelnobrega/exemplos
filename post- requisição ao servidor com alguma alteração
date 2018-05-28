@@ -1,0 +1,48 @@
+post- requisição ao servidor com alguma alteração em banco de dados
+
+get- requisição de consulta ao servidor
+
+form- criar um formulario
+
+fieldset- criar uma caixa para um formulario
+
+legend- define o nome da caixa
+
+label- o nome doq deve ser colocado dentro da caixa de prenchimento do formulario *for- define para onde deve ser apontado quando for clicado no nome (deve conter o nome do id do imput)
+
+input- receber as mensagens, *type"password, text, date,time, number, range,checkbox, radio(para ficarem alternando os nomes devem ser o msm ) " deve ser criado um id, e o 
+*name (coloque igual ao id serve para identificar dentro da linguagem rodando em back o que é isso) 
+*VALUE predefine um valor para o campo,
+*MIN E MAX	- DEFINEM o valor minimo e o valor maximo, 
+*step- define de quanto em quanto vai pulando 
+*checked - deixa uma caixinha ja marcada
+*placeholder - colocar um texto antes do usuario digitar
+*requerid -  n pode enviar sem marcar 
+*autocomplete - guarda ou nao historicos de coisas ja digitadas on/off
+*tabindex - define a ordem que o tab vai passar de um item ah outro 
+
+select- criar uma opção de seleção com barra de rolagem com opçoes ja definidas
+{
+	optgroup{label}- divide em grupos o select
+	option- para colocar as opções que podem ser selecionadas
+}
+
+textarea-  um espaço tipo o twitter aonde vc consegue digitar apertando espaço
+
+button	- cria um botao *submit - envia os formulario *rest- limpa todos os campos do formulario
+
+table- cria uma tabela{
+	
+tr- linha da tabela
+}
+
+rowspan- correspndencia de colunas
+
+colspan- corrspondencia de linhas 	
+
+padding- é a distancia dentro do bloco
+
+margin- é a distancia fora do bloco
+
+
+

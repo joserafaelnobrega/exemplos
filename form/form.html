@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Formulário</title>
+	</head>
+	<body>
+		<!--  declaração de formulario -->
+		<form method="get" action="arquivo.php">
+			<fieldset>
+				<legend>Dados Pessoais</legend>
+
+				<label for="nome">Nome:</label>
+				<input type="text"  id="nome" name="nome" maxlength="30" size="30" required="on" autofocus="on" placeholder="Seu nome aqui..." autocomplete="off" />
+				<br/>
+
+				<label for="sobre">Sobrenome:</label>
+				<input type="text" id="sobre" name="sobre"/>
+				<br/>
+
+				<label for="senha">senha:</label>
+				<input type="password" id="senha" name="senha"/>
+				<br/>
+
+				<label for="cidade">cidade</label>
+				<select id="cidade" name="cidade">
+					<option disabled="on" selected="">sua cidade </option>
+					<option value="nat">natal </option>
+					<option value="mos">mossoro </option>
+					<option value="cai">caico </option>
+					<option value="ass">assu </option>
+
+				</select>
+				<br/>
+
+				<label for="dt_nasc"> Nascimento:</label>
+				<input type="date" id="dt_nasc" name="dt_nasc"/>
+				<br/>
+
+				<label for="hr_nasc">hora:</label>
+				<input type="time" id="hr_nasc" name="hr_nasc"/>
+				<br/>
+
+				<label for="idade">idade:</label>
+				<input type="number" id="idade" name="idade" min="18" max="30" step= "" />
+				<br/>
+
+				<label 	for="avalia">avaliação:</label>
+				<input type="range" id="avalia" name="avalia"/>
+				<br/>
+
+				<fieldset>
+					<legend>Preferencias</legend>
+
+					<label>
+						<input type="checkbox" name="esportes">
+						esportes
+					</label>
+
+					<label>
+						<input type="checkbox" name="cinema">
+						cinema
+					</label>
+
+					<label>
+						<input type="checkbox" name="viagens">
+						viagens
+					</label>
+
+					<label>
+						<input type="checkbox" name="aventura" checked="on">
+						aventura
+					</label>
+
+					</fieldset>
+
+					<fieldset>
+
+						<label>
+						<input type="radio" name="sexo" value="m">
+						masculino
+
+						</label>
+
+						<label>
+						<input type="radio" name="sexo" value="f">
+						feminino
+
+						</label>
+
+						<label>
+						<input type="radio" name="sexo" checked="on" value="outro">
+						outro
+
+						</label>
+
+					</fieldset>
+					<br>
+
+					<label for="observacao">observações</label>
+					<br/>
+				<textarea placeholder="sua observações aq..."maxlength="100"cols="40" rows="5" ></textarea>
+
+			</fieldset>
+			<button type="submit">cadastrar</button>
+			<button type="reset">limpar</button>
+		</form>
+	</body>
+</html>

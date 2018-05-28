@@ -1,0 +1,39 @@
+.table1{
+
+	border: 1px solid;
+	width: 45px;
+	border-collapse: collapse
+}
+.table2{
+	 
+	border: 1px solid;
+	width: 80px;
+	border-collapse: collapse
+}
+.table_color2{
+	background-color: pink;
+}
+
+.table_color3{
+	background-color: orange;
+}
+
+.table_color4{
+	background-color: grey;
+}
+.table4{
+	 
+	border: 1px solid;
+	width: 80px;
+	border-collapse: collapse
+}
+
+.table_aero{
+
+width: 40%;
+margin: auto;
+border-collapse: collapse
+}
+
+	
+

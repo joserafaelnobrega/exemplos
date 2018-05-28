@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ELEIÇÕES</title>
+</head>
+<body>
+	<form>
+		<!-- escolher no que esta votando -->
+		<fieldset>
+			<label for="sele">Escolha a categoria que você deseja votar</label>
+			<select id="sele" name="sele" required="on">
+				<option disabled="on" selected="off">--- ---</option>
+				<option value="lider">lider de sala</option>
+				<option value="humo">humorista</option>
+				<option value="tim">timido</option>
+				<option value="secre">secretario</option>
+				<option value="dormi">dorminho</option>
+			</select>
+			<br/>
+			<br/>
+			<label for="nome">Selecione o nome da pessoa que você deseja votar</label>
+			<select id="nome" name="nome" required="on">
+				<option disabled="on" selected="off">--- ---</option>
+				<option value="ana">ana</option>
+				<option value="paulo">paulo</option>
+				<option value="pedro">pedro</option>
+				<option value="joao">joão</option>
+				<option value="lara">lara</option>
+				<option value="maria">maria</option>
+			</select>
+			<br>
+			<br>
+			<label>justifique seu voto:</label>
+				<br>
+			<textarea placeholder="justificativa..." maxlength="200" cols="40" rows="6" ></textarea>
+		</fieldset>
+		
+
+		<fieldset>
+			<legend>Informações Pessoais</legend>
+			sexo:
+				<label>
+					<input type="radio" name="sexo" value="m" checked="on">
+					Masculino
+				</label>
+				<label>
+					<input type="radio" name="sexo" value="f">
+					Feminino
+				</label>
+				<br/>
+				<br/>
+
+				<label for="non">Nome:</label>
+				<input type="text" id="non" name="non" required="on" maxlength="30" size="30">
+
+				<label for="sobre">Sobrenome:</label>
+				<input type="text" id="sobre" name="sobre">
+				<br/>
+				<br>
+
+				<label for="data">Data de nascimento:</label>
+				<input type="date" id="data" name="data">
+				<br>
+				<br>
+
+				<label for="email">Endereço de Email:</label>
+				<input type="text" id="email" name="email">
+			
+
+		</fieldset>
+
+
+
+
+		<button type="submit">enviar</button>
+		<button type="rest">limpar</button>
+	</form>
+
+</body>
+</html>

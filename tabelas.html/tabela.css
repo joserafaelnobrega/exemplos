@@ -1,0 +1,24 @@
+table,th, td{
+	border: 1px dotted;
+}
+
+table{
+	width: 70%;
+	margin: auto;
+
+}
+
+.coluna_nome{
+	width: 30%;
+
+}
+.alinha_centro{
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color: lightblue;
+}
+
+tr:nth-child(odd){
+	background-color: rgb(00,200,200);
+}
