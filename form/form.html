@@ -3,24 +3,35 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Formulário</title>
+		<link rel="stylesheet"  href="resouces/css/formu.css">
 	</head>
 	<body>
 		<!--  declaração de formulario -->
+		<div>
 		<form method="get" action="arquivo.php">
 			<fieldset>
 				<legend>Dados Pessoais</legend>
+		
 
+				<div id="dados11">
 				<label for="nome">Nome:</label>
 				<input type="text"  id="nome" name="nome" maxlength="30" size="30" required="on" autofocus="on" placeholder="Seu nome aqui..." autocomplete="off" />
-				<br/>
 
+				</div>
+
+				<div id="dados12">
 				<label for="sobre">Sobrenome:</label>
 				<input type="text" id="sobre" name="sobre"/>
-				<br/>
+				
+				</div>
 
+				<div id="dados13">
 				<label for="senha">senha:</label>
 				<input type="password" id="senha" name="senha"/>
 				<br/>
+				</div>
+
+		<div id="dados14">
 
 				<label for="cidade">cidade</label>
 				<select id="cidade" name="cidade">
@@ -31,23 +42,30 @@
 					<option value="ass">assu </option>
 
 				</select>
+				</div>
 				<br/>
-
+ 		<div id="dados15">
 				<label for="dt_nasc"> Nascimento:</label>
 				<input type="date" id="dt_nasc" name="dt_nasc"/>
 				<br/>
-
+				</div>
+     			<div id="dados16">
 				<label for="hr_nasc">hora:</label>
 				<input type="time" id="hr_nasc" name="hr_nasc"/>
 				<br/>
+				<br>
+
 
 				<label for="idade">idade:</label>
 				<input type="number" id="idade" name="idade" min="18" max="30" step= "" />
 				<br/>
+				</div>
 
+				<div id="dados17">
 				<label 	for="avalia">avaliação:</label>
 				<input type="range" id="avalia" name="avalia"/>
 				<br/>
+				</div>
 
 				<fieldset>
 					<legend>Preferencias</legend>
@@ -105,5 +123,6 @@
 			<button type="submit">cadastrar</button>
 			<button type="reset">limpar</button>
 		</form>
+		</div>
 	</body>
 </html>

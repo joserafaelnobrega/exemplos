@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-height: 768px ){
+	#container{
+		width: 750px;
+		margin: auto;
+	}
+	#cabecalho{
+		width: 750px;
+		height: 50px;
+		background-color: yellow;
+		
+	}
+	#menu-direito{
+		display: none;
+	}
+	#menu-esquerdo{
+		width: 100px;
+		height: 200px;
+		background-color: red;
+		float: left;
+	}
+	#conteudo{
+		width: 600px;
+		height: 200px;
+		background-color: green;
+		float: left;
+	}
+	
+	#rodape{
+		width: 750px;
+		height: 50px;
+		background-color: blue;
+		float: left;
+	}
+}
